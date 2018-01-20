@@ -39,7 +39,9 @@ public class Lemming_AI : MonoBehaviour {
 			
 			}
 			else{
-				//animator.SetBool("Walk",true);
+				if(animator.GetBool("Ragdoll") == false){
+					animator.SetBool("Walk",true);
+				}
 				agent.isStopped = false;
 			}
 			agent.destination = target.transform.position;
@@ -53,4 +55,18 @@ public class Lemming_AI : MonoBehaviour {
 		animator.SetBool("Walk",true);
     	animator.SetBool("Ragdoll",false);
 	}
+
+	void OnCollisionEnter(Collision collision){
+		if(collision.transform.tag == "PhysicsObject"){
+			print("HERE?");
+			StartCoroutine(Example());
+		}
+	}
+
+	    IEnumerator Example()
+    {
+		enableRagDoll = true;
+        yield return new WaitForSeconds(5);
+        enableRagDoll = false;
+    }
 }
