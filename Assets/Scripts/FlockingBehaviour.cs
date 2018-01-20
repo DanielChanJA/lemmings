@@ -8,7 +8,7 @@ public class FlockingBehaviour : MonoBehaviour {
 	public int flockSize;
 	public Vector3 spawnLocation;
 	public int spawnRadius;
-	public int spawnInterval;
+	public float spawnInterval;
 	public bool spawnOnSelf;
 	public GameObject lemming;
 

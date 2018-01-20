@@ -71,7 +71,7 @@ public class Lemming_AI : MonoBehaviour {
 		enableRagDoll = true;
         yield return new WaitForSeconds(5);
         enableRagDoll = false;
-		// Vector3 rPos = root.position;
+		Vector3 rPos = root.position;
 		gameObject.transform.position = root.position;
 		root.position = Vector3.zero;
     }
