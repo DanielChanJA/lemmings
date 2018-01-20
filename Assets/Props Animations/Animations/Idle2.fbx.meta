@@ -1,7 +1,7 @@
 fileFormatVersion: 2
 guid: 2dc9666c890a37946b1fbb67941e523d
 ModelImporter:
-  serializedVersion: 16
+  serializedVersion: 22
   fileIDToRecycleName:
     100000: chest
     100002: Eye_L
@@ -283,21 +283,95 @@ ModelImporter:
     13700000: Male_Base
     13700002: Sphere
     13700004: Sphere_001
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eye_ball
+    second: {fileID: 2100000, guid: 9dd19de0573432549bb251e847c6cf83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: pupil
+    second: {fileID: 2100000, guid: 386c08e1abb91614687d4fa2d6c0c849, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: skin_002
+    second: {fileID: 2100000, guid: fb9e138ef773e4643a9614ef0f083324, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+    resampleCurves: 1
     optimizeGameObjects: 0
     motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'BattleRoar' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'palm_02_L' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'palm_03_L' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_02_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'CrouchToCrawl' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'palm_02_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_02_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'IdleStrafeRoot' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'palm_02_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_02_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Loot' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'palm_02_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_02_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'StandToCrawl' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'palm_02_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_02_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'StandToProne' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'palm_02_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_02_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_03_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'palm_04_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
     animationCompression: 1
-    animationRotationError: .5
-    animationPositionError: .5
-    animationScaleError: .5
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
     animationWrapMode: 0
     extraExposedTransformPaths: []
+    extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
       name: Idle90DegTurnRight
@@ -309,6 +383,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -325,22 +400,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: .999999881
+          - serializedVersion: 2
+            time: 0.9999999
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleDie
       takeName: IdleDie
@@ -351,6 +430,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -367,22 +447,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle90DegTurnLeft
       takeName: Idle90DegTurn
@@ -393,6 +477,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -409,22 +494,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleMeditateTransitions
       takeName: IdleMeditate
@@ -435,6 +524,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -451,22 +541,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleMeditate
       takeName: IdleMeditate
@@ -477,6 +571,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -493,22 +588,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Crouch180
       takeName: Crouch180
@@ -519,6 +618,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -535,22 +635,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkTransition
       takeName: CrouchWalk
@@ -561,6 +665,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -577,32 +682,37 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalk
       takeName: CrouchWalk
       firstFrame: 10
-      lastFrame: 42.5999985
+      lastFrame: 42.6
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -619,22 +729,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleButtonPress
       takeName: IdleButtonPress
@@ -645,6 +759,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -661,22 +776,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleTyping
       takeName: IdleTyping
@@ -687,6 +806,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -703,27 +823,32 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: -Infinity
+          - serializedVersion: 2
+            time: -Infinity
             value: NaN
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Idle180
       takeName: Idle180
@@ -734,6 +859,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -750,32 +876,37 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleDieStayDown
       takeName: IdleDie
       firstFrame: 0
-      lastFrame: 25.2000008
+      lastFrame: 25.2
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -792,22 +923,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunLeftTransitions
       takeName: StrafeRunLeft
@@ -818,6 +953,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -834,22 +970,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunLeft
       takeName: StrafeRunLeft
@@ -860,6 +1000,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -876,6 +1017,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunRightTransitions
       takeName: StrafeRunLeft
@@ -886,6 +1028,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -902,22 +1045,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunRight
       takeName: StrafeRunLeft
@@ -926,8 +1073,9 @@ ModelImporter:
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: .75999999
+      cycleOffset: 0.76
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -944,6 +1092,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackwardTransitions
       takeName: RunBackward
@@ -954,6 +1103,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -970,22 +1120,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackward
       takeName: RunBackward
@@ -996,6 +1150,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1012,6 +1167,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleStunTransition
       takeName: IdleStun
@@ -1022,6 +1178,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1038,22 +1195,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleStun
       takeName: IdleStun
@@ -1064,6 +1225,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1080,22 +1242,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackLeft
       takeName: RunBackLeft
@@ -1104,8 +1270,9 @@ ModelImporter:
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: .550000012
+      cycleOffset: 0.55
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1122,6 +1289,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackRight
       takeName: RunBackLeft
@@ -1132,6 +1300,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1148,6 +1317,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunLeft1
       takeName: StrafeRunLeft
@@ -1156,8 +1326,9 @@ ModelImporter:
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
-      cycleOffset: .349999994
+      cycleOffset: 0.35
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1174,16 +1345,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrawlLocomotion
       takeName: CrawlLocomotion
-      firstFrame: 6.0999999
-      lastFrame: 38.9000015
+      firstFrame: 6.1
+      lastFrame: 38.9
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1200,6 +1373,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrawlToProne
       takeName: CrawlToProne
@@ -1210,6 +1384,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1226,6 +1401,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeLeftTransition
       takeName: CrouchStrafeLeft
@@ -1236,6 +1412,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1252,6 +1429,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeRightTransition
       takeName: CrouchStrafeRight
@@ -1262,6 +1440,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1278,6 +1457,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkBackwardTransition
       takeName: CrouchWalkBackward
@@ -1288,6 +1468,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1304,6 +1485,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleSpew
       takeName: IdleSpew
@@ -1314,6 +1496,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1330,22 +1513,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleMouthWipe
       takeName: IdleMouthWipe
@@ -1356,6 +1543,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 0
@@ -1372,22 +1560,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ProneLocomotion
       takeName: ProneLocomotion
@@ -1398,6 +1590,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1414,16 +1607,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StandToCrawl
       takeName: StandToCrawl
-      firstFrame: -1
+      firstFrame: 31
       lastFrame: 74
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1433,13 +1628,21 @@ ModelImporter:
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
       heightFromFeet: 0
-      mirror: 0
+      mirror: 1
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
-      events: []
+      events:
+      - time: 0.9448168
+        functionName: Standup
+        data: 
+        objectReferenceParameter: {instanceID: 0}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StandToProne
       takeName: StandToProne
@@ -1450,6 +1653,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1466,6 +1670,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrawlIdle
       takeName: StandToCrawl
@@ -1476,6 +1681,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1492,16 +1698,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ProneIdle
       takeName: CrawlToProne
-      firstFrame: 14.3000011
-      lastFrame: 40.7000008
+      firstFrame: 14.300001
+      lastFrame: 40.7
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1518,22 +1726,26 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchToCrawl
       takeName: CrouchToCrawl
@@ -1544,6 +1756,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1560,16 +1773,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeLeft
       takeName: CrouchStrafeLeft
-      firstFrame: 8.80000019
-      lastFrame: 37.0999985
+      firstFrame: 8.8
+      lastFrame: 37.1
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1586,16 +1801,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeRight
       takeName: CrouchStrafeRight
-      firstFrame: 10.3000002
-      lastFrame: 39.2000008
+      firstFrame: 10.3
+      lastFrame: 39.2
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1612,16 +1829,18 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkBackward
       takeName: CrouchWalkBackward
-      firstFrame: 13.7999992
-      lastFrame: 44.4000015
+      firstFrame: 13.799999
+      lastFrame: 44.4
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -1638,6 +1857,7 @@ ModelImporter:
       transformMask: []
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleFeedThrowTransition
       takeName: IdleFeedThrow
@@ -1648,6 +1868,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1800,6 +2021,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleFeedThrow
       takeName: IdleFeedThrow
@@ -1810,6 +2032,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1962,6 +2185,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: VaderChoke
       takeName: VaderChoke
@@ -1972,6 +2196,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -1988,18 +2213,21 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask:
       - path: 
@@ -2140,6 +2368,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: HeelClick
       takeName: HeelClick
@@ -2150,6 +2379,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2166,18 +2396,21 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask:
       - path: 
@@ -2318,6 +2551,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Yawn
       takeName: Yawn
@@ -2328,6 +2562,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -2344,18 +2579,21 @@ ModelImporter:
         curve:
           serializedVersion: 2
           curve:
-          - time: 0
+          - serializedVersion: 2
+            time: 0
             value: 0
             inSlope: 0
             outSlope: 0
             tangentMode: 0
-          - time: 1
+          - serializedVersion: 2
+            time: 1
             value: 1
             inSlope: 0
             outSlope: 0
             tangentMode: 0
           preInfinity: 2
           postInfinity: 2
+          rotationOrder: 4
       events: []
       transformMask:
       - path: 
@@ -2496,6 +2734,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: UphillWalk
       takeName: UphillWalk
@@ -2506,6 +2745,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2658,6 +2898,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: UphillWalkHandGrab
       takeName: UphillWalkHandGrab
@@ -2668,6 +2909,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2820,6 +3062,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkDehydrated
       takeName: WalkDehydrated
@@ -2830,6 +3073,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -2982,6 +3226,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleSandCover
       takeName: IdleSandCover
@@ -2992,6 +3237,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3144,6 +3390,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleInjured
       takeName: IdleInjured
@@ -3154,6 +3401,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3306,6 +3554,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleInjuredKnee
       takeName: IdleInjuredKnee
@@ -3316,6 +3565,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3468,6 +3718,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleInjuredloop
       takeName: IdleInjured
@@ -3478,6 +3729,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -3630,6 +3882,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleInjuredKneeloop
       takeName: IdleInjuredKnee
@@ -3640,6 +3893,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -3792,6 +4046,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: BattleRoar
       takeName: BattleRoar
@@ -3802,6 +4057,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -3954,6 +4210,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleMeditate2
       takeName: IdleMeditate2
@@ -3964,6 +4221,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4116,6 +4374,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Walk2
       takeName: Walk2
@@ -4126,6 +4385,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -4278,6 +4538,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Walk2Root
       takeName: Walk2Root
@@ -4288,6 +4549,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4440,6 +4702,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkRoot
       takeName: CrouchWalkRoot
@@ -4450,6 +4713,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4602,6 +4866,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackwardRoot
       takeName: RunBackwardRoot
@@ -4612,6 +4877,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4764,6 +5030,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrawlLocomotionRoot
       takeName: CrawlLocomotionRoot
@@ -4774,6 +5041,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -4926,6 +5194,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ProneLocomotionRoot
       takeName: ProneLocomotionRoot
@@ -4936,6 +5205,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5088,6 +5358,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleMeditate2Loop
       takeName: IdleMeditate2
@@ -5098,6 +5369,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -5250,6 +5522,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkRootLoop
       takeName: CrouchWalkRoot
@@ -5260,6 +5533,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -5412,6 +5686,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackwardRootLoop
       takeName: RunBackwardRoot
@@ -5422,6 +5697,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -5574,6 +5850,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrawlLocomotionRootLoop
       takeName: CrawlLocomotionRoot
@@ -5584,6 +5861,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -5736,6 +6014,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ProneLocomotionRootLoop
       takeName: ProneLocomotionRoot
@@ -5746,6 +6025,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -5898,6 +6178,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: idleDie2
       takeName: idleDie2
@@ -5908,6 +6189,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6060,6 +6342,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Loot
       takeName: Loot
@@ -6070,6 +6353,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6222,6 +6506,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkBackward
       takeName: WalkBackward
@@ -6232,6 +6517,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6384,6 +6670,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleStrafeRightRoot
       takeName: IdleStrafeRoot
@@ -6394,6 +6681,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6546,6 +6834,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleStrafeLeftRoot
       takeName: IdleStrafeRoot
@@ -6556,6 +6845,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6708,6 +6998,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeLeftRoot
       takeName: CrouchStrafeLeftRoot
@@ -6718,6 +7009,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -6870,16 +7162,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkRightRoot
       takeName: CrouchWalkRightRoot
       firstFrame: 1
-      lastFrame: 30.9000015
+      lastFrame: 30.900002
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7032,6 +7326,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkBackwardRoot
       takeName: CrouchWalkBackwardRoot
@@ -7042,6 +7337,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7194,16 +7490,18 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkLeftRoot
       takeName: CrouchWalkLeftRoot
-      firstFrame: 1.60000014
+      firstFrame: 1.6000001
       lastFrame: 31
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 0
@@ -7356,6 +7654,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: Flashlight
       takeName: Flashlight
@@ -7366,6 +7665,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -7518,6 +7818,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkBackwardLoop
       takeName: WalkBackward
@@ -7528,6 +7829,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -7680,6 +7982,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleStrafeRightRootLoop
       takeName: IdleStrafeRoot
@@ -7690,6 +7993,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -7842,6 +8146,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: IdleStrafeLeftRootLoop
       takeName: IdleStrafeRoot
@@ -7852,6 +8157,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -8004,6 +8310,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeLeftRootLoop
       takeName: CrouchStrafeLeftRoot
@@ -8014,6 +8321,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -8166,6 +8474,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeRightRootLoop
       takeName: CrouchStrafeRightRoot
@@ -8176,6 +8485,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -8328,6 +8638,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchStrafeRightRoot
       takeName: CrouchStrafeRightRoot
@@ -8338,6 +8649,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8490,6 +8802,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: CrouchWalkBackwardRootLoop
       takeName: CrouchWalkBackwardRoot
@@ -8500,6 +8813,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -8652,6 +8966,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: FlashlightLoop
       takeName: Flashlight
@@ -8662,6 +8977,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -8814,6 +9130,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ArmFlex
       takeName: ArmFlex
@@ -8824,6 +9141,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -8976,6 +9294,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: ArmFlex2
       takeName: ArmFlex2
@@ -8986,6 +9305,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
       loopBlendOrientation: 1
@@ -9138,6 +9458,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkDehydratedRoot
       takeName: WalkDehydratedRoot
@@ -9148,6 +9469,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -9300,6 +9622,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: WalkRoot
       takeName: WalkRoot
@@ -9310,6 +9633,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -9462,6 +9786,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunLeftRoot
       takeName: StrafeRunLeftRoot
@@ -9472,6 +9797,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -9624,6 +9950,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: StrafeRunRightRoot
       takeName: StrafeRunLeftRoot
@@ -9634,6 +9961,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -9786,6 +10114,7 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     - serializedVersion: 16
       name: RunBackwardRoot
       takeName: RunBackwardRoot
@@ -9796,6 +10125,7 @@ ModelImporter:
       level: 0
       cycleOffset: 0
       loop: 0
+      hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
@@ -9948,798 +10278,814 @@ ModelImporter:
         weight: 0
       maskType: 0
       maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    importVisibility: 0
     importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
+    keepQuads: 0
     weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
+    useFileScale: 0
   tangentSpace:
     normalSmoothAngle: 60
-    splitTangentsAcrossUV: 1
     normalImportMode: 0
-    tangentImportMode: 1
+    tangentImportMode: 4
+    normalCalculationMode: 0
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human:
     - boneName: hips
       humanName: Hips
       limit:
         min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
-        value: {x: .131856695, y: 0, z: .0659283474}
-        length: .164820939
+        value: {x: 0.1318567, y: 0, z: 0.06592835}
+        length: 0.16482094
         modified: 1
     - boneName: thigh_L
       humanName: LeftUpperLeg
       limit:
-        min: {x: -60.0000038, y: -60.0000038, z: -90}
-        max: {x: 60.0000038, y: 60.0000038, z: 50}
-        value: {x: .361302316, y: 0, z: .180651158}
-        length: .451628029
+        min: {x: -60.000004, y: -60.000004, z: -90}
+        max: {x: 60.000004, y: 60.000004, z: 50}
+        value: {x: 0.36130232, y: 0, z: 0.18065116}
+        length: 0.45162803
         modified: 1
     - boneName: thigh_R
       humanName: RightUpperLeg
       limit:
-        min: {x: -60.0000038, y: -60.0000038, z: -90}
-        max: {x: 60.0000038, y: 60.0000038, z: 50}
-        value: {x: .361302406, y: 0, z: .180651203}
-        length: .451628149
+        min: {x: -60.000004, y: -60.000004, z: -90}
+        max: {x: 60.000004, y: 60.000004, z: 50}
+        value: {x: 0.3613024, y: 0, z: 0.1806512}
+        length: 0.45162815
         modified: 1
     - boneName: shin_L
       humanName: LeftLowerLeg
       limit:
         min: {x: -90, y: 0, z: -80}
         max: {x: 90, y: 0, z: 80}
-        value: {x: .367753834, y: 0, z: .183876917}
-        length: .459692419
+        value: {x: 0.36775383, y: 0, z: 0.18387692}
+        length: 0.45969242
         modified: 1
     - boneName: shin_R
       humanName: RightLowerLeg
       limit:
         min: {x: -90, y: 0, z: -80}
         max: {x: 90, y: 0, z: 80}
-        value: {x: .367753923, y: 0, z: .183876961}
-        length: .459692538
+        value: {x: 0.36775392, y: 0, z: 0.18387696}
+        length: 0.45969254
         modified: 1
     - boneName: foot_L
       humanName: LeftFoot
       limit:
-        min: {x: 0, y: -30.0000019, z: -50}
-        max: {x: 0, y: 30.0000019, z: 50}
-        value: {x: .0780929998, y: 0, z: .0390464999}
-        length: .0976162851
+        min: {x: 0, y: -30.000002, z: -50}
+        max: {x: 0, y: 30.000002, z: 50}
+        value: {x: 0.078093, y: 0, z: 0.0390465}
+        length: 0.097616285
         modified: 1
     - boneName: foot_R
       humanName: RightFoot
       limit:
-        min: {x: 0, y: -30.0000019, z: -50}
-        max: {x: 0, y: 30.0000019, z: 50}
-        value: {x: .078092806, y: 0, z: .039046403}
-        length: .0976160467
+        min: {x: 0, y: -30.000002, z: -50}
+        max: {x: 0, y: 30.000002, z: 50}
+        value: {x: 0.078092806, y: 0, z: 0.039046403}
+        length: 0.09761605
         modified: 1
     - boneName: spine
       humanName: Spine
       limit:
         min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
-        value: {x: .119430512, y: 0, z: .0597152561}
-        length: .149288177
+        value: {x: 0.11943051, y: 0, z: 0.059715256}
+        length: 0.14928818
         modified: 1
     - boneName: chest
       humanName: Chest
       limit:
         min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
-        value: {x: .238304481, y: 0, z: .11915224}
-        length: .297880679
+        value: {x: 0.23830448, y: 0, z: 0.11915224}
+        length: 0.29788068
         modified: 1
     - boneName: neck
       humanName: Neck
       limit:
         min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
-        value: {x: .0512496196, y: 0, z: .0256248098}
-        length: .064062044
+        value: {x: 0.05124962, y: 0, z: 0.02562481}
+        length: 0.064062044
         modified: 1
     - boneName: head
       humanName: Head
       limit:
         min: {x: -40, y: -40, z: -40}
         max: {x: 40, y: 40, z: 40}
-        value: {x: .0512496196, y: 0, z: .0256248098}
-        length: .064062044
+        value: {x: 0.05124962, y: 0, z: 0.02562481}
+        length: 0.064062044
         modified: 1
     - boneName: shoulder_L
       humanName: LeftShoulder
       limit:
         min: {x: 0, y: -15.000001, z: -15.000001}
-        max: {x: 0, y: 15.000001, z: 30.0000019}
-        value: {x: .151156589, y: 0, z: .0755782947}
-        length: .188945815
+        max: {x: 0, y: 15.000001, z: 30.000002}
+        value: {x: 0.15115659, y: 0, z: 0.075578295}
+        length: 0.18894581
         modified: 1
     - boneName: shoulder_R
       humanName: RightShoulder
       limit:
         min: {x: 0, y: -15.000001, z: -15.000001}
-        max: {x: 0, y: 15.000001, z: 30.0000019}
-        value: {x: .151156649, y: 0, z: .0755783245}
-        length: .188945875
+        max: {x: 0, y: 15.000001, z: 30.000002}
+        value: {x: 0.15115665, y: 0, z: 0.075578324}
+        length: 0.18894587
         modified: 1
     - boneName: upper_arm_L
       humanName: LeftUpperArm
       limit:
-        min: {x: -90, y: -100, z: -60.0000038}
+        min: {x: -90, y: -100, z: -60.000004}
         max: {x: 90, y: 100, z: 100}
-        value: {x: .195715502, y: 0, z: .097857751}
-        length: .244644448
+        value: {x: 0.1957155, y: 0, z: 0.09785775}
+        length: 0.24464445
         modified: 1
     - boneName: upper_arm_R
       humanName: RightUpperArm
       limit:
-        min: {x: -90, y: -100, z: -60.0000038}
+        min: {x: -90, y: -100, z: -60.000004}
         max: {x: 90, y: 100, z: 100}
-        value: {x: .195715532, y: 0, z: .0978577659}
-        length: .244644493
+        value: {x: 0.19571553, y: 0, z: 0.097857766}
+        length: 0.2446445
         modified: 1
     - boneName: forearm_L
       humanName: LeftLowerArm
       limit:
         min: {x: -90, y: 0, z: -80}
         max: {x: 90, y: 0, z: 80}
-        value: {x: .212161317, y: 0, z: .106080659}
-        length: .265201718
+        value: {x: 0.21216132, y: 0, z: 0.10608066}
+        length: 0.26520172
         modified: 1
     - boneName: forearm_R
       humanName: RightLowerArm
       limit:
         min: {x: -90, y: 0, z: -80}
         max: {x: 90, y: 0, z: 80}
-        value: {x: .212161347, y: 0, z: .106080674}
-        length: .265201747
+        value: {x: 0.21216135, y: 0, z: 0.10608067}
+        length: 0.26520175
         modified: 1
     - boneName: hand_L
       humanName: LeftHand
       limit:
         min: {x: 0, y: -40, z: -80}
         max: {x: 0, y: 40, z: 80}
-        value: {x: .106080659, y: 0, z: .0530403294}
-        length: .132600859
+        value: {x: 0.10608066, y: 0, z: 0.05304033}
+        length: 0.13260086
         modified: 1
     - boneName: hand_R
       humanName: RightHand
       limit:
         min: {x: 0, y: -40, z: -80}
         max: {x: 0, y: 40, z: 80}
-        value: {x: .106080674, y: 0, z: .0530403368}
-        length: .132600874
+        value: {x: 0.10608067, y: 0, z: 0.053040337}
+        length: 0.13260087
         modified: 1
     - boneName: toe_L
       humanName: LeftToes
       limit:
         min: {x: 0, y: 0, z: -50}
         max: {x: 0, y: 0, z: 50}
-        value: {x: .0576211475, y: 0, z: .0288105737}
-        length: .0720264539
+        value: {x: 0.057621147, y: 0, z: 0.028810574}
+        length: 0.072026454
         modified: 1
     - boneName: toe_R
       humanName: RightToes
       limit:
         min: {x: 0, y: 0, z: -50}
         max: {x: 0, y: 0, z: 50}
-        value: {x: .0576211736, y: 0, z: .0288105868}
-        length: .0720264837
+        value: {x: 0.057621174, y: 0, z: 0.028810587}
+        length: 0.07202648
         modified: 1
     - boneName: Eye_L
       humanName: LeftEye
       limit:
         min: {x: 0, y: -20, z: -10}
         max: {x: 0, y: 20, z: 15.000001}
-        value: {x: .0799999759, y: 0, z: .0399999879}
-        length: .100000001
+        value: {x: 0.079999976, y: 0, z: 0.039999988}
+        length: 0.1
         modified: 1
     - boneName: Eye_R
       humanName: RightEye
       limit:
         min: {x: 0, y: -20, z: -10}
         max: {x: 0, y: 20, z: 15.000001}
-        value: {x: .0799999759, y: 0, z: .0399999879}
-        length: .100000001
+        value: {x: 0.079999976, y: 0, z: 0.039999988}
+        length: 0.1
         modified: 1
     - boneName: Jaw
       humanName: Jaw
       limit:
         min: {x: 0, y: -10, z: -10}
         max: {x: 0, y: 10, z: 10}
-        value: {x: .0799999759, y: 0, z: .0399999879}
-        length: .100000001
+        value: {x: 0.079999976, y: 0, z: 0.039999988}
+        length: 0.1
         modified: 1
     - boneName: thumb_01_L
       humanName: Left Thumb Proximal
       limit:
         min: {x: 0, y: -25, z: -20}
         max: {x: 0, y: 25, z: 20}
-        value: {x: .0342222266, y: 0, z: .0171111133}
-        length: .0427777991
+        value: {x: 0.034222227, y: 0, z: 0.017111113}
+        length: 0.0427778
         modified: 1
     - boneName: thumb_02_L
       humanName: Left Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: -40}
         max: {x: 0, y: 0, z: 35}
-        value: {x: .0210287515, y: 0, z: .0105143758}
-        length: .0262859482
+        value: {x: 0.021028752, y: 0, z: 0.010514376}
+        length: 0.026285948
         modified: 1
     - boneName: thumb_03_L
       humanName: Left Thumb Distal
       limit:
         min: {x: 0, y: 0, z: -40}
         max: {x: 0, y: 0, z: 35}
-        value: {x: .0157715622, y: 0, z: .00788578112}
-        length: .0197144616
+        value: {x: 0.015771562, y: 0, z: 0.007885781}
+        length: 0.019714462
         modified: 1
     - boneName: f_index_01_L
       humanName: Left Index Proximal
       limit:
         min: {x: 0, y: -20, z: -50}
         max: {x: 0, y: 20, z: 50}
-        value: {x: .038204696, y: 0, z: .019102348}
-        length: .0477558859
+        value: {x: 0.038204696, y: 0, z: 0.019102348}
+        length: 0.047755886
         modified: 1
     - boneName: f_index_02_L
       humanName: Left Index Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0218912866, y: 0, z: .0109456433}
-        length: .0273641162
+        value: {x: 0.021891287, y: 0, z: 0.010945643}
+        length: 0.027364116
         modified: 1
     - boneName: f_index_03_L
       humanName: Left Index Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0164184626, y: 0, z: .00820923131}
-        length: .0205230862
+        value: {x: 0.016418463, y: 0, z: 0.008209231}
+        length: 0.020523086
         modified: 1
     - boneName: f_middle_01_L
       humanName: Left Middle Proximal
       limit:
-        min: {x: 0, y: -7.50000048, z: -50}
-        max: {x: 0, y: 7.50000048, z: 50}
-        value: {x: .0304535944, y: 0, z: .0152267972}
-        length: .0380670018
+        min: {x: 0, y: -7.5000005, z: -50}
+        max: {x: 0, y: 7.5000005, z: 50}
+        value: {x: 0.030453594, y: 0, z: 0.015226797}
+        length: 0.038067
         modified: 1
     - boneName: f_middle_02_L
       humanName: Left Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0244149696, y: 0, z: .0122074848}
-        length: .0305187218
+        value: {x: 0.02441497, y: 0, z: 0.012207485}
+        length: 0.030518722
         modified: 1
     - boneName: f_middle_03_L
       humanName: Left Middle Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0183112249, y: 0, z: .00915561244}
-        length: .0228890404
+        value: {x: 0.018311225, y: 0, z: 0.009155612}
+        length: 0.02288904
         modified: 1
     - boneName: f_ring_01_L
       humanName: Left Ring Proximal
       limit:
-        min: {x: 0, y: -7.50000048, z: -50}
-        max: {x: 0, y: 7.50000048, z: 50}
-        value: {x: .0322312973, y: 0, z: .0161156487}
-        length: .0402891375
+        min: {x: 0, y: -7.5000005, z: -50}
+        max: {x: 0, y: 7.5000005, z: 50}
+        value: {x: 0.032231297, y: 0, z: 0.016115649}
+        length: 0.040289138
         modified: 1
     - boneName: f_ring_02_L
       humanName: Left Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0238572825, y: 0, z: .0119286412}
-        length: .0298216119
+        value: {x: 0.023857282, y: 0, z: 0.011928641}
+        length: 0.029821612
         modified: 1
     - boneName: f_ring_03_L
       humanName: Left Ring Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0178929605, y: 0, z: .00894648023}
-        length: .022366209
+        value: {x: 0.01789296, y: 0, z: 0.00894648}
+        length: 0.022366209
         modified: 1
     - boneName: f_pinky_01_L
       humanName: Left Little Proximal
       limit:
         min: {x: 0, y: -20, z: -50}
         max: {x: 0, y: 20, z: 50}
-        value: {x: .0246429667, y: 0, z: .0123214833}
-        length: .0308037177
+        value: {x: 0.024642967, y: 0, z: 0.012321483}
+        length: 0.030803718
         modified: 1
     - boneName: f_pinky_02_L
       humanName: Left Little Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0181420427, y: 0, z: .00907102134}
-        length: .0226775613
+        value: {x: 0.018142043, y: 0, z: 0.009071021}
+        length: 0.022677561
         modified: 1
     - boneName: f_pinky_03_L
       humanName: Left Little Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0136065325, y: 0, z: .00680326624}
-        length: .0170081705
+        value: {x: 0.0136065325, y: 0, z: 0.0068032662}
+        length: 0.01700817
         modified: 1
     - boneName: thumb_01_R
       humanName: Right Thumb Proximal
       limit:
         min: {x: 0, y: -25, z: -20}
         max: {x: 0, y: 25, z: 20}
-        value: {x: .0342221819, y: 0, z: .0171110909}
-        length: .0427777432
+        value: {x: 0.034222182, y: 0, z: 0.017111091}
+        length: 0.042777743
         modified: 1
     - boneName: thumb_02_R
       humanName: Right Thumb Intermediate
       limit:
         min: {x: 0, y: 0, z: -40}
         max: {x: 0, y: 0, z: 35}
-        value: {x: .0210287254, y: 0, z: .0105143627}
-        length: .0262859147
+        value: {x: 0.021028725, y: 0, z: 0.010514363}
+        length: 0.026285915
         modified: 1
     - boneName: thumb_03_R
       humanName: Right Thumb Distal
       limit:
         min: {x: 0, y: 0, z: -40}
         max: {x: 0, y: 0, z: 35}
-        value: {x: .0157715417, y: 0, z: .00788577087}
-        length: .0197144356
+        value: {x: 0.015771542, y: 0, z: 0.007885771}
+        length: 0.019714436
         modified: 1
     - boneName: f_index_01_R
       humanName: Right Index Proximal
       limit:
         min: {x: 0, y: -20, z: -50}
         max: {x: 0, y: 20, z: 50}
-        value: {x: .0382046811, y: 0, z: .0191023406}
-        length: .0477558672
+        value: {x: 0.03820468, y: 0, z: 0.01910234}
+        length: 0.047755867
         modified: 1
     - boneName: f_index_02_R
       humanName: Right Index Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0218911897, y: 0, z: .0109455949}
-        length: .0273639951
+        value: {x: 0.02189119, y: 0, z: 0.010945595}
+        length: 0.027363995
         modified: 1
     - boneName: f_index_03_R
       humanName: Right Index Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .01641839, y: 0, z: .00820919499}
-        length: .0205229968
+        value: {x: 0.01641839, y: 0, z: 0.008209195}
+        length: 0.020522997
         modified: 1
     - boneName: f_middle_01_R
       humanName: Right Middle Proximal
       limit:
-        min: {x: 0, y: -7.50000048, z: -50}
-        max: {x: 0, y: 7.50000048, z: 50}
-        value: {x: .0304535981, y: 0, z: .0152267991}
-        length: .0380670056
+        min: {x: 0, y: -7.5000005, z: -50}
+        max: {x: 0, y: 7.5000005, z: 50}
+        value: {x: 0.030453598, y: 0, z: 0.015226799}
+        length: 0.038067006
         modified: 1
     - boneName: f_middle_02_R
       humanName: Right Middle Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0244150255, y: 0, z: .0122075127}
-        length: .0305187907
+        value: {x: 0.024415025, y: 0, z: 0.012207513}
+        length: 0.03051879
         modified: 1
     - boneName: f_middle_03_R
       humanName: Right Middle Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0183112677, y: 0, z: .00915563386}
-        length: .0228890926
+        value: {x: 0.018311268, y: 0, z: 0.009155634}
+        length: 0.022889093
         modified: 1
     - boneName: f_ring_01_R
       humanName: Right Ring Proximal
       limit:
-        min: {x: 0, y: -7.50000048, z: -50}
-        max: {x: 0, y: 7.50000048, z: 50}
-        value: {x: .0322313458, y: 0, z: .0161156729}
-        length: .0402892008
+        min: {x: 0, y: -7.5000005, z: -50}
+        max: {x: 0, y: 7.5000005, z: 50}
+        value: {x: 0.032231346, y: 0, z: 0.016115673}
+        length: 0.0402892
         modified: 1
     - boneName: f_ring_02_R
       humanName: Right Ring Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0238572042, y: 0, z: .0119286021}
-        length: .0298215151
+        value: {x: 0.023857204, y: 0, z: 0.011928602}
+        length: 0.029821515
         modified: 1
     - boneName: f_ring_03_R
       humanName: Right Ring Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0178929027, y: 0, z: .00894645136}
-        length: .0223661363
+        value: {x: 0.017892903, y: 0, z: 0.008946451}
+        length: 0.022366136
         modified: 1
     - boneName: f_pinky_01_R
       humanName: Right Little Proximal
       limit:
         min: {x: 0, y: -20, z: -50}
         max: {x: 0, y: 20, z: 50}
-        value: {x: .024643017, y: 0, z: .0123215085}
-        length: .0308037791
+        value: {x: 0.024643017, y: 0, z: 0.0123215085}
+        length: 0.03080378
         modified: 1
     - boneName: f_pinky_02_R
       humanName: Right Little Intermediate
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0181420427, y: 0, z: .00907102134}
-        length: .0226775631
+        value: {x: 0.018142043, y: 0, z: 0.009071021}
+        length: 0.022677563
         modified: 1
     - boneName: f_pinky_03_R
       humanName: Right Little Distal
       limit:
         min: {x: 0, y: 0, z: -45}
         max: {x: 0, y: 0, z: 45}
-        value: {x: .0136065343, y: 0, z: .00680326717}
-        length: .0170081723
+        value: {x: 0.013606534, y: 0, z: 0.006803267}
+        length: 0.017008172
         modified: 1
     skeleton:
     - name: Idle2
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: 0, y: 0, z: 0, w: .99999994}
+      rotation: {x: 0, y: 0, z: 0, w: 0.99999994}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: metarig
+      parentName: 
       position: {x: 0, y: 0, z: 0}
-      rotation: {x: -.707106769, y: 0, z: -0, w: .70710665}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.70710665}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: hips_main
-      position: {x: -0, y: .0287325494, z: 1.11146855}
-      rotation: {x: -.463641435, y: -.463641435, z: -.533888161, w: .533888221}
-      scale: {x: .999999821, y: 1, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0, y: 0.02873255, z: 1.1114686}
+      rotation: {x: -0.46364143, y: -0.46364143, z: -0.53388816, w: 0.5338882}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
     - name: hips
-      position: {x: -.164821088, y: 1.24436346e-08, z: 0}
-      rotation: {x: 7.54978942e-08, y: .99999994, z: -4.37113776e-08, w: 7.55001466e-08}
+      parentName: 
+      position: {x: -0.16482109, y: 0.000000012443635, z: 0}
+      rotation: {x: 0.000000075497894, y: 0.99999994, z: -0.000000043711378, w: 0.00000007550015}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: spine
-      position: {x: -.164820984, y: 1.24436443e-08, z: -3.72529008e-09}
-      rotation: {x: 1.33525347e-07, y: -.0173714459, z: 2.34266317e-09, w: .999849081}
-      scale: {x: .999999821, y: 1, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.16482098, y: 0.000000012443644, z: -0.00000000372529}
+      rotation: {x: 0.00000013352535, y: -0.017371446, z: 0.0000000023426632, w: 0.9998491}
+      scale: {x: 0.9999998, y: 1, z: 0.9999998}
     - name: chest
-      position: {x: -.149288207, y: 1.12709504e-08, z: 5.587935e-09}
-      rotation: {x: -1.84295587e-07, y: -.0891903043, z: 1.59482703e-08, w: .996014595}
-      scale: {x: .99999994, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.1492882, y: 0.00000001127095, z: 0.000000005587935}
+      rotation: {x: -0.00000018429559, y: -0.089190304, z: 0.00000001594827, w: 0.9960146}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: neck
-      position: {x: -.297880799, y: 2.24893864e-08, z: -3.72529008e-09}
-      rotation: {x: .97505033, y: -5.90472524e-08, z: -.221983701, w: -8.32437692e-08}
-      scale: {x: .999999762, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.2978808, y: 0.000000022489386, z: -0.00000000372529}
+      rotation: {x: 0.97505033, y: -0.000000059047252, z: -0.2219837, w: -0.00000008324377}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
     - name: head
-      position: {x: -.064062126, y: 4.83654894e-09, z: 4.28408384e-08}
-      rotation: {x: .987002134, y: -4.93203665e-08, z: -.160706758, w: -8.0573713e-08}
-      scale: {x: 1.00000012, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.064062126, y: 0.000000004836549, z: 0.00000004284084}
+      rotation: {x: 0.98700213, y: -0.000000049320366, z: -0.16070676, w: -0.00000008057371}
+      scale: {x: 1.0000001, y: 1, z: 1}
     - name: Eye_L
-      position: {x: -.0975518748, y: -.0333527699, z: .0647670254}
-      rotation: {x: .725295305, y: 9.6822049e-08, z: -.68843776, w: 1.31582851e-07}
-      scale: {x: 1.00000024, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.097551875, y: -0.03335277, z: 0.064767025}
+      rotation: {x: 0.7252953, y: 0.00000009682205, z: -0.68843776, w: 0.00000013158285}
+      scale: {x: 1.0000002, y: 1, z: 1}
     - name: Eye_R
-      position: {x: -.0975518748, y: .0333527327, z: .0647670552}
-      rotation: {x: .725295305, y: 9.6822049e-08, z: -.68843776, w: 1.31582851e-07}
-      scale: {x: 1.00000024, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.097551875, y: 0.033352733, z: 0.064767055}
+      rotation: {x: 0.7252953, y: 0.00000009682205, z: -0.68843776, w: 0.00000013158285}
+      scale: {x: 1.0000002, y: 1, z: 1}
     - name: Jaw
-      position: {x: -.0256086104, y: -6.24479002e-09, z: .0209136065}
-      rotation: {x: 2.55757357e-07, y: .78986752, z: 5.83395519e-08, w: .613277376}
-      scale: {x: 1.00000024, y: 1, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.02560861, y: -0.00000000624479, z: 0.020913607}
+      rotation: {x: 0.00000025575736, y: 0.7898675, z: 0.000000058339552, w: 0.6132774}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
     - name: shoulder_L
-      position: {x: -.244901836, y: -.0168662984, z: .0409841165}
-      rotation: {x: -.380264729, y: -.565180898, z: .403675884, w: .610749483}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.24490184, y: -0.016866298, z: 0.040984116}
+      rotation: {x: -0.38026473, y: -0.5651809, z: 0.40367588, w: 0.6107495}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
     - name: upper_arm_L
-      position: {x: -.188417032, y: -.013095364, z: -.00530016795}
-      rotation: {x: .701147676, y: .13220349, z: .178546563, w: .677521288}
-      scale: {x: 1, y: 1.00000012, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.18841703, y: -0.013095364, z: -0.005300168}
+      rotation: {x: 0.7011477, y: 0.13220349, z: 0.17854656, w: 0.6775213}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
     - name: forearm_L
-      position: {x: -.244644523, y: -5.71017154e-08, z: 0}
-      rotation: {x: -.0476205386, y: .0144841056, z: -.0468460284, w: .997661173}
-      scale: {x: .999999881, y: 1.00000024, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.24464452, y: -0.000000057101715, z: 0}
+      rotation: {x: -0.04762054, y: 0.014484106, z: -0.04684603, w: 0.9976612}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
     - name: hand_L
-      position: {x: -.265201807, y: 1.58324838e-08, z: 0}
-      rotation: {x: .716167629, y: .0331716277, z: -.00422897656, w: .697126627}
-      scale: {x: 1, y: .999999881, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.2652018, y: 0.000000015832484, z: 0}
+      rotation: {x: 0.7161676, y: 0.033171628, z: -0.0042289766, w: 0.6971266}
+      scale: {x: 1, y: 0.9999999, z: 1}
     - name: palm_01_L
-      position: {x: -.0370062366, y: .0218179785, z: -.00361074437}
-      rotation: {x: -.0422997996, y: .0498925261, z: -.0479035936, w: .996707857}
-      scale: {x: 1, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.037006237, y: 0.021817978, z: -0.0036107444}
+      rotation: {x: -0.0422998, y: 0.049892526, z: -0.047903594, w: 0.99670786}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
     - name: f_index_01_L
-      position: {x: -.0540055335, y: -3.72529008e-09, z: -1.01514161e-07}
-      rotation: {x: .0994582772, y: -.0223080404, z: .0247043986, w: .994484782}
-      scale: {x: 1, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.054005533, y: -0.00000000372529, z: -0.00000010151416}
+      rotation: {x: 0.09945828, y: -0.02230804, z: 0.024704399, w: 0.9944848}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
     - name: f_index_02_L
-      position: {x: -.0477559194, y: 1.49011612e-08, z: 1.76252797e-07}
-      rotation: {x: .0169766881, y: .0254691467, z: .0195995867, w: .999339223}
-      scale: {x: .999999881, y: .999999702, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04775592, y: 0.000000014901161, z: 0.0000001762528}
+      rotation: {x: 0.016976688, y: 0.025469147, z: 0.019599587, w: 0.9993392}
+      scale: {x: 0.9999999, y: 0.9999997, z: 0.99999976}
     - name: f_index_03_L
-      position: {x: -.0273641236, y: 2.23517418e-08, z: 3.18977982e-08}
-      rotation: {x: .0242159124, y: -.061117813, z: .0314665847, w: .997340441}
-      scale: {x: 1, y: .999999881, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.027364124, y: 0.000000022351742, z: 0.000000031897798}
+      rotation: {x: 0.024215912, y: -0.061117813, z: 0.031466585, w: 0.99734044}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
     - name: thumb_01_L
-      position: {x: .0112397904, y: .0160487834, z: .0272074789}
-      rotation: {x: .644635677, y: -.256031364, z: -.264619529, w: .66997695}
-      scale: {x: .999999821, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.01123979, y: 0.016048783, z: 0.027207479}
+      rotation: {x: 0.6446357, y: -0.25603136, z: -0.26461953, w: 0.66997695}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
     - name: thumb_02_L
-      position: {x: -.0427778028, y: 9.89530236e-08, z: 6.86850399e-08}
-      rotation: {x: .0310328137, y: .0384006724, z: -.00583786378, w: .998763323}
-      scale: {x: 1, y: .99999994, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.042777803, y: 0.000000098953024, z: 0.00000006868504}
+      rotation: {x: 0.031032814, y: 0.038400672, z: -0.005837864, w: 0.9987633}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
     - name: thumb_03_L
-      position: {x: -.0262859855, y: 2.4586916e-07, z: 2.42143869e-08}
-      rotation: {x: .00752328057, y: -.137146175, z: -.0610264614, w: .988640487}
-      scale: {x: 1.00000024, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.026285985, y: 0.00000024586916, z: 0.000000024214387}
+      rotation: {x: 0.0075232806, y: -0.13714617, z: -0.06102646, w: 0.9886405}
+      scale: {x: 1.0000002, y: 1, z: 1}
     - name: palm_02_L
-      position: {x: -.0394122787, y: .00616485998, z: -.00686945207}
-      rotation: {x: -.0288459659, y: .036294952, z: .0345860161, w: .998325765}
-      scale: {x: .999999881, y: 1, z: .999999762}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03941228, y: 0.00616486, z: -0.006869452}
+      rotation: {x: -0.028845966, y: 0.036294952, z: 0.034586016, w: 0.99832577}
+      scale: {x: 0.9999999, y: 1, z: 0.99999976}
     - name: f_middle_01_L
-      position: {x: -.062861681, y: 1.67638063e-08, z: 3.63215804e-08}
-      rotation: {x: .0535211898, y: -.018911114, z: -.00877497438, w: .998349011}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.06286168, y: 0.000000016763806, z: 0.00000003632158}
+      rotation: {x: 0.05352119, y: -0.018911114, z: -0.008774974, w: 0.998349}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: f_middle_02_L
-      position: {x: -.0380670503, y: 8.38190317e-09, z: -7.83766154e-08}
-      rotation: {x: -.0282079168, y: .0183742438, z: -.0122382119, w: .999358177}
-      scale: {x: 1, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03806705, y: 0.000000008381903, z: -0.000000078376615}
+      rotation: {x: -0.028207917, y: 0.018374244, z: -0.012238212, w: 0.9993582}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
     - name: f_middle_03_L
-      position: {x: -.0305187311, y: 9.31322575e-09, z: -9.0803951e-08}
-      rotation: {x: .0189029276, y: -.0197986159, z: .00715824775, w: .999599576}
-      scale: {x: .999999821, y: .999999642, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.030518731, y: 0.000000009313226, z: -0.00000009080395}
+      rotation: {x: 0.018902928, y: -0.019798616, z: 0.0071582478, w: 0.9995996}
+      scale: {x: 0.9999998, y: 0.99999964, z: 0.9999998}
     - name: palm_03_L
-      position: {x: -.0375928879, y: -.00838591531, z: -.00707355142}
-      rotation: {x: -.0160470288, y: .0458706655, z: .123146936, w: .991197824}
-      scale: {x: .99999994, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.037592888, y: -0.008385915, z: -0.0070735514}
+      rotation: {x: -0.016047029, y: 0.045870665, z: 0.12314694, w: 0.9911978}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999999}
     - name: f_ring_01_L
-      position: {x: -.0594128631, y: 2.23517418e-08, z: -9.77888703e-09}
-      rotation: {x: -.0230743997, y: -.0307329055, z: -.0702533871, w: .996788561}
-      scale: {x: .999999821, y: .999999762, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.059412863, y: 0.000000022351742, z: -0.000000009778887}
+      rotation: {x: -0.0230744, y: -0.030732905, z: -0.07025339, w: 0.99678856}
+      scale: {x: 0.9999998, y: 0.99999976, z: 0.9999998}
     - name: f_ring_02_L
-      position: {x: -.0402891785, y: 1.76951289e-08, z: -1.21071926e-08}
-      rotation: {x: .0158685651, y: .0319499969, z: .0269627608, w: .998999655}
-      scale: {x: 1, y: 1.00000012, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.04028918, y: 0.000000017695129, z: -0.000000012107193}
+      rotation: {x: 0.015868565, y: 0.031949997, z: 0.02696276, w: 0.99899966}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
     - name: f_ring_03_L
-      position: {x: -.0298216306, y: 3.72529008e-09, z: 1.15483999e-07}
-      rotation: {x: .0518859252, y: -.0362538733, z: -.0124816382, w: .997916639}
-      scale: {x: .999999762, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.02982163, y: 0.00000000372529, z: 0.000000115484}
+      rotation: {x: 0.051885925, y: -0.036253873, z: -0.012481638, w: 0.99791664}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999999}
     - name: palm_04_L
-      position: {x: -.0337963216, y: -.022353109, z: -.00572899589}
-      rotation: {x: .0324460864, y: .0970634371, z: .196708366, w: .975105941}
-      scale: {x: 1, y: .99999994, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03379632, y: -0.022353109, z: -0.005728996}
+      rotation: {x: 0.032446086, y: 0.09706344, z: 0.19670837, w: 0.97510594}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
     - name: f_pinky_01_L
-      position: {x: -.0524634868, y: -1.86264515e-08, z: -3.72529008e-09}
-      rotation: {x: -.141325235, y: -.0900602564, z: -.137100533, w: .976278484}
-      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.052463487, y: -0.000000018626451, z: -0.00000000372529}
+      rotation: {x: -0.14132524, y: -0.09006026, z: -0.13710053, w: 0.9762785}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
     - name: f_pinky_02_L
-      position: {x: -.0308037456, y: 1.49011612e-08, z: 6.89178705e-08}
-      rotation: {x: .0247599743, y: .0262694042, z: .0248178579, w: .999039948}
-      scale: {x: .99999994, y: 1, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.030803746, y: 0.000000014901161, z: 0.00000006891787}
+      rotation: {x: 0.024759974, y: 0.026269404, z: 0.024817858, w: 0.99903995}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
     - name: f_pinky_03_L
-      position: {x: -.0226775464, y: 7.4505806e-09, z: 1.35973096e-07}
-      rotation: {x: .0216371566, y: -.00562813645, z: -.0315964483, w: .999250591}
-      scale: {x: .999999881, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.022677546, y: 0.000000007450581, z: 0.0000001359731}
+      rotation: {x: 0.021637157, y: -0.0056281365, z: -0.03159645, w: 0.9992506}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
     - name: shoulder_R
-      position: {x: -.244901836, y: .0168663319, z: .0409841165}
-      rotation: {x: .38026464, y: -.565181017, z: -.403675914, w: .610749424}
-      scale: {x: 1.00000012, y: 1.00000024, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.24490184, y: 0.016866332, z: 0.040984116}
+      rotation: {x: 0.38026464, y: -0.565181, z: -0.4036759, w: 0.6107494}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000001}
     - name: upper_arm_R
-      position: {x: -.188417047, y: .0130953928, z: -.00530016655}
-      rotation: {x: -.701147735, y: .132203534, z: -.178546727, w: .677521229}
-      scale: {x: 1.00000024, y: 1.00000024, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.18841705, y: 0.013095393, z: -0.0053001666}
+      rotation: {x: -0.70114774, y: 0.13220353, z: -0.17854673, w: 0.6775212}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
     - name: forearm_R
-      position: {x: -.244644493, y: -2.44472198e-09, z: -1.86264504e-09}
-      rotation: {x: .0476205833, y: .0144839203, z: .0468460433, w: .997661173}
-      scale: {x: .999999881, y: 1.00000024, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.2446445, y: -0.000000002444722, z: -0.000000001862645}
+      rotation: {x: 0.047620583, y: 0.01448392, z: 0.046846043, w: 0.9976612}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000001}
     - name: hand_R
-      position: {x: -.265201807, y: 7.72997737e-08, z: 1.11758709e-08}
-      rotation: {x: .981985211, y: -.0253257956, z: -.0218369588, w: -.185974926}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.2652018, y: 0.000000077299774, z: 0.000000011175871}
+      rotation: {x: 0.9819852, y: -0.025325796, z: -0.021836959, w: -0.18597493}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: palm_01_R
-      position: {x: -.0370062478, y: -.00519814715, z: -.0214951709}
-      rotation: {x: .5537135, y: .0125339879, z: .0680214465, w: .829829633}
-      scale: {x: .999999881, y: .999999881, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.037006248, y: -0.005198147, z: -0.02149517}
+      rotation: {x: 0.5537135, y: 0.012533988, z: 0.06802145, w: 0.82982963}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
     - name: f_index_01_R
-      position: {x: -.0540055782, y: -1.11758709e-08, z: -1.2665987e-07}
-      rotation: {x: -.0157318693, y: -.022466287, z: -.0245605316, w: .999321997}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.05400558, y: -0.000000011175871, z: -0.00000012665987}
+      rotation: {x: -0.01573187, y: -0.022466287, z: -0.024560532, w: 0.999322}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: f_index_02_R
-      position: {x: -.0477558859, y: 5.587935e-09, z: -4.7206413e-08}
-      rotation: {x: -.0172751974, y: .0236031003, z: -.0218109004, w: .999334097}
-      scale: {x: .999999821, y: .999999881, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.047755886, y: 0.000000005587935, z: -0.000000047206413}
+      rotation: {x: -0.017275197, y: 0.0236031, z: -0.0218109, w: 0.9993341}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.9999998}
     - name: f_index_03_R
-      position: {x: -.0273640156, y: -3.02679792e-09, z: 2.43016984e-08}
-      rotation: {x: .0504781455, y: -.0654490367, z: -.0210227259, w: .996356487}
+      parentName: 
+      position: {x: -0.027364016, y: -0.000000003026798, z: 0.000000024301698}
+      rotation: {x: 0.050478145, y: -0.06544904, z: -0.021022726, w: 0.9963565}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: thumb_01_R
-      position: {x: .0112397466, y: -.01810739, z: .0258829761}
-      rotation: {x: .518668056, y: .180235922, z: .321077138, w: .771626711}
-      scale: {x: 1, y: .999999881, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: 0.011239747, y: -0.01810739, z: 0.025882976}
+      rotation: {x: 0.51866806, y: 0.18023592, z: 0.32107714, w: 0.7716267}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
     - name: thumb_02_R
-      position: {x: -.0427777469, y: 5.78584149e-08, z: -7.72997737e-08}
-      rotation: {x: -.0335591547, y: -.0307662375, z: -.0237169154, w: .998681486}
-      scale: {x: .99999994, y: 1, z: 1.00000024}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.042777747, y: 0.000000057858415, z: -0.000000077299774}
+      rotation: {x: -0.033559155, y: -0.030766238, z: -0.023716915, w: 0.9986815}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
     - name: thumb_03_R
-      position: {x: -.026285924, y: -7.82310963e-08, z: 2.04890966e-08}
-      rotation: {x: -.0274755899, y: .149206623, z: .0164522268, w: .98828727}
-      scale: {x: .99999994, y: 1, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.026285924, y: -0.000000078231096, z: 0.000000020489097}
+      rotation: {x: -0.02747559, y: 0.14920662, z: 0.016452227, w: 0.98828727}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
     - name: palm_02_R
-      position: {x: -.0394122936, y: .00391567498, z: -.00835834816}
-      rotation: {x: .5655182, y: .0494556054, z: -.00822584238, w: .823210537}
-      scale: {x: .999999881, y: .999999821, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.039412294, y: 0.003915675, z: -0.008358348}
+      rotation: {x: 0.5655182, y: 0.049455605, z: -0.008225842, w: 0.82321054}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1.0000001}
     - name: f_middle_01_R
-      position: {x: -.0628616661, y: -5.587935e-09, z: 1.60187483e-07}
-      rotation: {x: -.0144947637, y: -.0187716801, z: .00906937104, w: .999677539}
-      scale: {x: .999999821, y: .999999821, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.062861666, y: -0.000000005587935, z: 0.00000016018748}
+      rotation: {x: -0.014494764, y: -0.01877168, z: 0.009069371, w: 0.99967754}
+      scale: {x: 0.9999998, y: 0.9999998, z: 1}
     - name: f_middle_02_R
-      position: {x: -.0380670466, y: 1.86264504e-09, z: 2.93366611e-08}
-      rotation: {x: -.0199236888, y: .0184538495, z: .0121178357, w: .999557674}
-      scale: {x: .999999881, y: .999999821, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.038067047, y: 0.000000001862645, z: 0.000000029336661}
+      rotation: {x: -0.019923689, y: 0.01845385, z: 0.012117836, w: 0.9995577}
+      scale: {x: 0.9999999, y: 0.9999998, z: 1}
     - name: f_middle_03_R
-      position: {x: -.0305188354, y: 0, z: -4.09781933e-08}
-      rotation: {x: -.00850821845, y: -.0195655636, z: -.00777264964, w: .999742091}
-      scale: {x: .999999881, y: .999999762, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.030518835, y: 0, z: -0.000000040978193}
+      rotation: {x: -0.008508218, y: -0.019565564, z: -0.0077726496, w: 0.9997421}
+      scale: {x: 0.9999999, y: 0.99999976, z: 1}
     - name: palm_03_R
-      position: {x: -.0375928953, y: .00978704914, z: .00495685264}
-      rotation: {x: .544652998, y: .107697368, z: -.0753032118, w: .828301668}
-      scale: {x: 1, y: .999999821, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.037592895, y: 0.009787049, z: 0.0049568526}
+      rotation: {x: 0.544653, y: 0.10769737, z: -0.07530321, w: 0.82830167}
+      scale: {x: 1, y: 0.9999998, z: 1}
     - name: f_ring_01_R
-      position: {x: -.0594127998, y: 1.49011612e-08, z: -7.26431608e-08}
-      rotation: {x: -.0162121877, y: -.0361109637, z: .0676464885, w: .996923804}
-      scale: {x: 1, y: 1.00000012, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.0594128, y: 0.000000014901161, z: -0.00000007264316}
+      rotation: {x: -0.016212188, y: -0.036110964, z: 0.06764649, w: 0.9969238}
+      scale: {x: 1, y: 1.0000001, z: 1}
     - name: f_ring_02_R
-      position: {x: -.0402892344, y: -9.31323019e-10, z: 6.62403181e-08}
-      rotation: {x: .00885624718, y: .0343067758, z: -.0238922834, w: .99908644}
-      scale: {x: 1, y: 1.00000012, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.040289234, y: -9.31323e-10, z: 0.00000006624032}
+      rotation: {x: 0.008856247, y: 0.034306776, z: -0.023892283, w: 0.99908644}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
     - name: f_ring_03_R
-      position: {x: -.0298215225, y: 3.92901989e-10, z: -2.75904313e-07}
-      rotation: {x: -.0238193031, y: -.0367213823, z: .0110306116, w: .998980701}
-      scale: {x: .999999821, y: .99999994, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.029821523, y: 3.92902e-10, z: -0.0000002759043}
+      rotation: {x: -0.023819303, y: -0.036721382, z: 0.011030612, w: 0.9989807}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999999}
     - name: palm_04_R
-      position: {x: -.0337963291, y: .0140049271, z: .0183395967}
-      rotation: {x: .554477453, y: .18340534, z: -.120324463, w: .802769661}
-      scale: {x: .999999523, y: .999999702, z: .999999702}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.03379633, y: 0.014004927, z: 0.018339597}
+      rotation: {x: 0.55447745, y: 0.18340534, z: -0.12032446, w: 0.80276966}
+      scale: {x: 0.9999995, y: 0.9999997, z: 0.9999997}
     - name: f_pinky_01_R
-      position: {x: -.0524634607, y: -7.4505806e-09, z: -8.28877091e-08}
-      rotation: {x: -.00190902874, y: -.0954379141, z: .133411959, w: .986452818}
-      scale: {x: .99999994, y: 1, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.05246346, y: -0.000000007450581, z: -0.00000008288771}
+      rotation: {x: -0.0019090287, y: -0.095437914, z: 0.13341196, w: 0.9864528}
+      scale: {x: 0.99999994, y: 1, z: 1}
     - name: f_pinky_02_R
-      position: {x: -.0308038164, y: -1.49011612e-08, z: -6.23986125e-08}
-      rotation: {x: .00218931027, y: .0298570581, z: -.020360807, w: .999344349}
-      scale: {x: .999999881, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.030803816, y: -0.000000014901161, z: -0.00000006239861}
+      rotation: {x: 0.0021893103, y: 0.029857058, z: -0.020360807, w: 0.99934435}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
     - name: f_pinky_03_R
-      position: {x: -.0226775706, y: 0, z: 8.19563866e-08}
-      rotation: {x: -.0334861316, y: -.0100851366, z: .0304680392, w: .998923719}
-      scale: {x: .999999821, y: .99999994, z: .99999994}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.02267757, y: 0, z: 0.00000008195639}
+      rotation: {x: -0.03348613, y: -0.010085137, z: 0.03046804, w: 0.9989237}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
     - name: thigh_L
-      position: {x: -.0633673444, y: -.0920198634, z: .0316196494}
-      rotation: {x: -.0149434311, y: .998887181, z: -.00263253949, w: .0446556434}
-      scale: {x: 1, y: .999999821, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.063367344, y: -0.09201986, z: 0.03161965}
+      rotation: {x: -0.014943431, y: 0.9988872, z: -0.0026325395, w: 0.044655643}
+      scale: {x: 1, y: 0.9999998, z: 1}
     - name: shin_L
-      position: {x: -.451628208, y: 2.98823579e-08, z: 4.19095203e-09}
-      rotation: {x: -.00244534342, y: .0133046741, z: .00188210909, w: .999906719}
+      parentName: 
+      position: {x: -0.4516282, y: 0.000000029882358, z: 0.000000004190952}
+      rotation: {x: -0.0024453434, y: 0.013304674, z: 0.0018821091, w: 0.9999067}
       scale: {x: 1, y: 1, z: 1}
-      transformModified: 1
     - name: foot_L
-      position: {x: -.459692568, y: 3.29018803e-08, z: 2.94312508e-09}
-      rotation: {x: -.0389072634, y: -.491739452, z: .0914851651, w: .865048528}
-      scale: {x: .99999994, y: .999999881, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.45969257, y: 0.00000003290188, z: 0.000000002943125}
+      rotation: {x: -0.038907263, y: -0.49173945, z: 0.091485165, w: 0.8650485}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.9999999}
     - name: toe_L
-      position: {x: -.144052967, y: 1.74622983e-08, z: 6.17569285e-09}
-      rotation: {x: .951947212, y: .0399693958, z: .295884669, w: .068198882}
-      scale: {x: 1, y: .999999821, z: .999999881}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.14405297, y: 0.000000017462298, z: 0.000000006175693}
+      rotation: {x: 0.9519472, y: 0.039969396, z: 0.29588467, w: 0.06819888}
+      scale: {x: 1, y: 0.9999998, z: 0.9999999}
     - name: thigh_R
-      position: {x: -.0633673295, y: .0920198783, z: .0316196494}
-      rotation: {x: .0151195554, y: .998889804, z: -.00128928758, w: .0445965081}
-      scale: {x: .99999994, y: .999999821, z: .999999821}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.06336733, y: 0.09201988, z: 0.03161965}
+      rotation: {x: 0.015119555, y: 0.9988898, z: -0.0012892876, w: 0.04459651}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999998}
     - name: shin_R
-      position: {x: -.451628298, y: 2.92347977e-08, z: -7.85803422e-09}
-      rotation: {x: -.00169523654, y: .0132975969, z: -.00193147291, w: .999908209}
-      scale: {x: 1, y: 1, z: 1.00000012}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.4516283, y: 0.000000029234798, z: -0.000000007858034}
+      rotation: {x: -0.0016952365, y: 0.013297597, z: -0.0019314729, w: 0.9999082}
+      scale: {x: 1, y: 1, z: 1.0000001}
     - name: foot_R
-      position: {x: -.459692717, y: 3.7252903e-08, z: -2.98496206e-09}
-      rotation: {x: .0390933082, y: -.491719723, z: -.0915906504, w: .865040183}
-      scale: {x: 1, y: .99999994, z: 1}
-      transformModified: 1
+      parentName: 
+      position: {x: -0.45969272, y: 0.000000037252903, z: -0.000000002984962}
+      rotation: {x: 0.03909331, y: -0.49171972, z: -0.09159065, w: 0.8650402}
+      scale: {x: 1, y: 0.99999994, z: 1}
     - name: toe_R
-      position: {x: -.144053012, y: 8.26548785e-09, z: 4.40406989e-10}
-      rotation: {x: .951947212, y: -.0399693027, z: .295884669, w: -.0681989118}
-      scale: {x: .999999762, y: .999999821, z: .999999762}
-      transformModified: 1
-    armTwist: .5
-    foreArmTwist: .5
-    upperLegTwist: .5
-    legTwist: .5
-    armStretch: .0500000007
-    legStretch: .0500000007
+      parentName: 
+      position: {x: -0.14405301, y: 0.000000008265488, z: 4.40407e-10}
+      rotation: {x: 0.9519472, y: -0.039969303, z: 0.29588467, w: -0.06819891}
+      scale: {x: 0.99999976, y: 0.9999998, z: 0.99999976}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 3
+  humanoidOversampling: 1
   additionalBone: 0
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
