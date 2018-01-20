@@ -294,7 +294,13 @@ Prefab:
       propertyPath: lemming
       value: 
       objectReference: {fileID: 1244598835}
-    m_RemovedComponents: []
+    - target: {fileID: 114133341143480858, guid: c7272813bd2cb448f8772aed17173048,
+        type: 2}
+      propertyPath: flockSize
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114133341143480858, guid: c7272813bd2cb448f8772aed17173048, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: c7272813bd2cb448f8772aed17173048, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &960058486
@@ -750,3 +756,25 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 38df1165ceaef47d586f2d8436af1333, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1433189342 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1581542540047442, guid: c7272813bd2cb448f8772aed17173048,
+    type: 2}
+  m_PrefabInternal: {fileID: 851593035}
+--- !u!114 &1433189343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1433189342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0662fe6f701545e7a759fc9201a8fdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flockSize: 5
+  spawnLocation: {x: 0, y: 0, z: 0}
+  spawnRadius: 20
+  spawnInterval: 5
+  spawnOnSelf: 1
+  lemming: {fileID: 1244598835}

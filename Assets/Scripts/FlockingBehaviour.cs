@@ -8,15 +8,36 @@ public class FlockingBehaviour : MonoBehaviour {
 	public int flockSize;
 	public Vector3 spawnLocation;
 	public int spawnRadius;
+	public int spawnInterval;
+	public bool spawnOnSelf;
 	public GameObject lemming;
 
-	public List<GameObject> lemmings;
-	
+	private List<GameObject> lemmings;
+	private float remainingTime;
+
 
 	// Use this for initialization
 	void Start () {
+
+		if(spawnOnSelf) {
+			spawnLocation = transform.position;
+		}
+
 		lemmings = new List<GameObject>();
-		Debug.Log(lemmings);
+		Spawn();
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		if(spawnInterval != 0) {
+			remainingTime -= Time.deltaTime;
+			if(remainingTime <= 0.0f) {
+				Spawn();
+			}
+		}
+	}
+
+	void Spawn() {
 		for(int i = 0; i < flockSize; i++) {
 			GameObject tempLemming = GameObject.Instantiate(lemming);
 			tempLemming.transform.position = new Vector3(
@@ -25,10 +46,8 @@ public class FlockingBehaviour : MonoBehaviour {
 				Random.Range(spawnLocation.z - spawnRadius, spawnLocation.z + spawnRadius));
 			lemmings.Add(tempLemming);
 		}
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+
+		remainingTime = spawnInterval;
+
 	}
 }
