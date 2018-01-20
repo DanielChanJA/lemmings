@@ -11,6 +11,7 @@ public class Lemming_AI : MonoBehaviour {
 
 	private Animator animator;
 
+	public Transform root;
 	public bool enableRagDoll;
 	private RagdollUtility ragdoll;
 
@@ -56,7 +57,7 @@ public class Lemming_AI : MonoBehaviour {
     	animator.SetBool("Ragdoll",false);
 	}
 
-	void OnCollisionEnter(Collision collision){
+	void OnTriggerEnter(Collider collision){
 		if(collision.transform.tag == "PhysicsObject"){
 			print("HERE?");
 			StartCoroutine(Example());
@@ -68,5 +69,8 @@ public class Lemming_AI : MonoBehaviour {
 		enableRagDoll = true;
         yield return new WaitForSeconds(5);
         enableRagDoll = false;
+		// Vector3 rPos = root.position;
+		gameObject.transform.position = root.position;
+		root.position = Vector3.zero;
     }
 }
