@@ -29,21 +29,23 @@ public class Lemming_AI : MonoBehaviour {
 			ragdoll.EnableRagdoll();
 			animator.SetBool("Walk",false);
 			animator.SetBool("Ragdoll",true);
+			agent.isStopped = true;
 		}
 		else{
 			
 			ragdoll.DisableRagdoll();
 					//agent.Move();
 			if(Vector3.Distance(transform.position,target.transform.position) < 1){
-			animator.SetBool("Walk",false);
-			agent.isStopped = true;
+				animator.SetBool("Walk",false);
+				agent.isStopped = true;
 			
 			}
 			else{
 				if(animator.GetBool("Ragdoll") == false){
 					animator.SetBool("Walk",true);
+					agent.isStopped = false;
 				}
-				agent.isStopped = false;
+				
 			}
 			agent.destination = target.transform.position;
 		}
