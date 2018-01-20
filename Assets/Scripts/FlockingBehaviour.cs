@@ -12,11 +12,11 @@ public class FlockingBehaviour : MonoBehaviour {
 
 	public List<GameObject> lemmings;
 	
-	
+
 	// Use this for initialization
 	void Start () {
 		lemmings = new List<GameObject>();
-
+		Debug.Log(lemmings);
 		for(int i = 0; i < flockSize; i++) {
 			GameObject tempLemming = GameObject.Instantiate(lemming);
 			tempLemming.transform.position = new Vector3(
