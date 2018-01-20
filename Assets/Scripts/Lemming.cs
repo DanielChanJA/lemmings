@@ -86,7 +86,7 @@ public class Lemming : MonoBehaviour {
 			GetComponent<Rigidbody>().isKinematic = false;
 			GetComponent<Collider>().enabled = true;
 			Vector3 left = theCam.transform.right *Input.GetAxis("Mouse X") * 10f;
-			Vector3 right = theCam.transform.forward *Input.GetAxis("Mouse Y") * 10f;
+			Vector3 right = theCam.transform.up *Input.GetAxis("Mouse Y") * 10f;
 			Debug.Log(left);
 			Debug.Log(right);
 			GetComponent<Rigidbody>().AddForce(left, ForceMode.Impulse);
